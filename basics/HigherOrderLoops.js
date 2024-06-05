@@ -25,3 +25,18 @@ const myArr=[1,2,3,4,5]
 const Print=(val,index,arr)=>console.log(val,index,arr)
 myArr.forEach(Print) 
 // pass refrence here not execute it 
+const bigObject=[{
+    name:"scsjj",
+    class:24
+},
+{
+    name:"scsjj",
+    class:24
+},
+{
+    name:"scsjj",
+    class:24
+},]
+
+bigObject.forEach((val,key)=>console.log(val.class))
+
